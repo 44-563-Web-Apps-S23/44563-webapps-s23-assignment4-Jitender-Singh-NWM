@@ -1,0 +1,19 @@
+.speech {
+    font-size: 5;font-family: 'Courier New', Courier, monospace;color: black;
+  }
+.direction{
+ background-color: beige;
+  }
+.name{
+font-size: 15;font-family: Arial, Helvetica, sans-serif;color: black;
+}
+.direction:hover{
+background-color: aqua;
+}
+.OHANO{
+color: blue;
+}
+.NIJO{
+color: brown;
+}
+
