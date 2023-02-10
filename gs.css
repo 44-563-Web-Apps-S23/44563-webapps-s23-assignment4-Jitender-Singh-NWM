@@ -16,4 +16,19 @@ color: blue;
 .NIJO{
 color: brown;
 }
+table, th, td {
+    border: 1px solid;text-align: center;
+  }
+  table{
+    background-image: linear-gradient(22deg, #303018 16.67%, #4f86b0 16.67%, #4f86b0 33.33%, #bd3333 33.33%, #bd3333 50%, #303018 50%, #303018 66.67%, #4f86b0 66.67%, #4f86b0 83.33%, #bd3333 83.33%, #bd3333 100%);
+background-size: 160.17px 64.71px;
+width:50%;padding: 10px;margin: 10px;
+  }
+  th{
+    background-image: linear-gradient(45deg, #6eba61 16.67%, #f7cfdb 16.67%, #f7cfdb 33.33%, #fff 33.33%, #fff 50%, #6eba61 50%, #6eba61 66.67%, #f7cfdb 66.67%, #f7cfdb 83.33%, #fff 83.33%, #fff 100%);
+background-size: 84.85px 84.85px;
+}
+td{
+    color: aliceblue;font-weight: bold;
+}
 
