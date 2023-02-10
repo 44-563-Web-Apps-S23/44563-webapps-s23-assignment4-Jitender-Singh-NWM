@@ -19,6 +19,10 @@ color: brown;
 table, th, td {
     border: 1px solid;text-align: center;
   }
+  tr{
+    background-image: linear-gradient(0deg, #de6f1b 18.75%, #655acc 18.75%, #655acc 50%, #de6f1b 50%, #de6f1b 68.75%, #655acc 68.75%, #655acc 100%);
+background-size: 16.00px 16.00px;
+  }
   table{
     background-image: linear-gradient(22deg, #303018 16.67%, #4f86b0 16.67%, #4f86b0 33.33%, #bd3333 33.33%, #bd3333 50%, #303018 50%, #303018 66.67%, #4f86b0 66.67%, #4f86b0 83.33%, #bd3333 83.33%, #bd3333 100%);
 background-size: 160.17px 64.71px;
