@@ -35,4 +35,7 @@ background-size: 84.85px 84.85px;
 td{
     color: aliceblue;font-weight: bold;
 }
+.name:hover{
+    text-shadow: 3px 3px #7666c9;
+}
 
