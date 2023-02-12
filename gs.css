@@ -5,9 +5,7 @@
 .direction{
  background-color: beige;font-size: 20;font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
-.name{
-font-size: 15;font-family: Arial, Helvetica, sans-serif;color: black;
-}
+
 .direction:hover{
 background-color: aqua;
 }
