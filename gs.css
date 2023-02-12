@@ -37,7 +37,13 @@ background-size: 84.85px 84.85px;
 td{
     color: aliceblue;font-weight: bold;
 }
-.name:hover{
+.OHANO:hover{
     text-shadow: 3px 3px #7666c9;
+}
+.NIJO:hover{
+  text-shadow: 3px 3px #eb1f41;
+}
+.ZAMA:hover{
+  text-shadow: 3px 3px #eb1f41;
 }
 
