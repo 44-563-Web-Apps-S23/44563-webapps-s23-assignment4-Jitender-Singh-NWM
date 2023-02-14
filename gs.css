@@ -1,3 +1,9 @@
+body {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
 .speech {
     font-size: 10;font-family: 'Courier New', Courier, monospace;color: black;
   }
@@ -28,7 +34,7 @@ background-size: 16.00px 16.00px;
   table{
     background-image: linear-gradient(22deg, #303018 16.67%, #4f86b0 16.67%, #4f86b0 33.33%, #bd3333 33.33%, #bd3333 50%, #303018 50%, #303018 66.67%, #4f86b0 66.67%, #4f86b0 83.33%, #bd3333 83.33%, #bd3333 100%);
 background-size: 160.17px 64.71px;
-width:50%;padding: 10px;margin: 10px;
+width:600px;padding: 10px;margin: 10px;height: 300px;
   }
   th{
     background-image: linear-gradient(45deg, #6eba61 16.67%, #f7cfdb 16.67%, #f7cfdb 33.33%, #fff 33.33%, #fff 50%, #6eba61 50%, #6eba61 66.67%, #f7cfdb 66.67%, #f7cfdb 83.33%, #fff 83.33%, #fff 100%);
@@ -46,9 +52,9 @@ td{
 .ZAMA:hover{
   text-shadow: 3px 3px #dba12e;
 }
-ul.navbar-horizontal {
+/*ul.navbar-horizontal {
   /* remove these */
-  list-style-type: none;
+  /*list-style-type: none;
   margin: 0;
   padding: 0;
 
@@ -56,7 +62,7 @@ ul.navbar-horizontal {
 
 ul.navbar-horizontal li {
   float:left;/* line up horizontally */
-  color:#000;
+  /*color:#000;
   background-color:rgb(43, 198, 226);
 }
 
@@ -66,11 +72,86 @@ ul.navbar-horizontal a {
 }
 
 /* on hover change the link color*/
-ul.navbar-horizontal a:hover {  
+/*ul.navbar-horizontal a:hover {  
   background-color: #555;
   color:white;
-}
+}*/
 .iconcclass{
 
   font-size:20px;color:lightblue;text-shadow:2px 2px 4px #000000;
+}
+
+
+.charcontainer {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.charcontainer::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.zoom {
+  padding: 10px;
+  
+  transition: transform .2s;
+   margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #1717f4;
+}
+
+.linkcls{
+  padding: 10px;
+}
+.imgcls{
+  padding:10px;
+  height: 200px;
+  width: 200px;
 }
