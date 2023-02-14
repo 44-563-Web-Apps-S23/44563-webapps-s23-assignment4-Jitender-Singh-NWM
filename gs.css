@@ -3,7 +3,7 @@
   }
 
 .direction{
- background-color: beige;font-size: 20;font-family: Verdana, Geneva, Tahoma, sans-serif;
+ background-color: rgb(232, 232, 100);font-size: 20;font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
 .direction:hover{
@@ -46,4 +46,31 @@ td{
 .ZAMA:hover{
   text-shadow: 3px 3px #dba12e;
 }
+ul.navbar-horizontal {
+  /* remove these */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 
+}
+
+ul.navbar-horizontal li {
+  float:left;/* line up horizontally */
+  color:#000;
+  background-color:rgb(43, 198, 226);
+}
+
+ul.navbar-horizontal a {
+  display:block;
+  padding:8px
+}
+
+/* on hover change the link color*/
+ul.navbar-horizontal a:hover {  
+  background-color: #555;
+  color:white;
+}
+.iconcclass{
+
+  font-size:20px;color:lightblue;text-shadow:2px 2px 4px #000000;
+}
