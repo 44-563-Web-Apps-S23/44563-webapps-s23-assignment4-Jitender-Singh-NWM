@@ -93,14 +93,14 @@ tr:nth-child(odd) {
 }
 .OHANO:hover {
   text-shadow: 3px 3px 3px #7666c9;
-  border: 1%;
+  border: 1px solid #b53333;
 }
 .NIJO:hover {
-  border: 1%;
+  border: 1px solid #5126ad;
   text-shadow: 3px 3px 3px #eb1f41;
 }
 .ZAMA:hover {
-  border: 1%;
+  border: 1px solid #13bf4de2;
   text-shadow: 3px 3px 3px #dba12e;
 }
 /*ul.navbar-horizontal {
