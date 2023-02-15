@@ -5,82 +5,136 @@ body {
 }
 
 .speech {
-    font-size: 10;font-family: 'Courier New', Courier, monospace;color: black;
-  }
+  font-size: 10;
+  font-family: "Courier New", Courier, monospace;
+  color: black;
+}
 
-.direction{
- background-color: rgb(232, 232, 100);font-size: 20;font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-
-.direction:hover{
-background-color: aqua;
+.direction {
+  background-color: rgb(232, 232, 100);
+  font-size: 20;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.OHANO{
-color: blue;
+.name {
+  text-shadow: 3px 3px 3px #7666c9;
+  border: 1%;
 }
-.NIJO{
-color: brown;
+.name :hover {
+  text-shadow: 3px 3px 3px #7666c9;
+  border: 1%;
 }
-.ZAMA{
-    color:green;
+.direction:hover {
+  background-color: aqua;
+  color: #7666c9;
 }
-table, th, td {
-    border: 1px solid;text-align: center;
-  }
-  tr{
-    background-image: linear-gradient(0deg, #de6f1b 18.75%, #655acc 18.75%, #655acc 50%, #de6f1b 50%, #de6f1b 68.75%, #655acc 68.75%, #655acc 100%);
+.OHANO {
+  color: blue;
+}
+.NIJO {
+  color: brown;
+}
+.ZAMA {
+  color: green;
+}
+table,
+th,
+td {
+  border: 1px solid;
+  text-align: center;
+}
+/*tr{
+  background-image: linear-gradient(0deg, #de6f1b 18.75%, #655acc 18.75%, #655acc 50%, #de6f1b 50%, #de6f1b 68.75%, #655acc 68.75%, #655acc 100%);
 background-size: 16.00px 16.00px;
-  }
-  table{
-    background-image: linear-gradient(22deg, #303018 16.67%, #4f86b0 16.67%, #4f86b0 33.33%, #bd3333 33.33%, #bd3333 50%, #303018 50%, #303018 66.67%, #4f86b0 66.67%, #4f86b0 83.33%, #bd3333 83.33%, #bd3333 100%);
-background-size: 160.17px 64.71px;
-width:600px;padding: 10px;margin: 10px;height: 300px;
-  }
-  th{
-    background-image: linear-gradient(45deg, #6eba61 16.67%, #f7cfdb 16.67%, #f7cfdb 33.33%, #fff 33.33%, #fff 50%, #6eba61 50%, #6eba61 66.67%, #f7cfdb 66.67%, #f7cfdb 83.33%, #fff 83.33%, #fff 100%);
-background-size: 84.85px 84.85px;
+}*/
+table {
+  background-image: linear-gradient(
+    22deg,
+    #303018 16.67%,
+    #4f86b0 16.67%,
+    #4f86b0 33.33%,
+    #bd3333 33.33%,
+    #bd3333 50%,
+    #303018 50%,
+    #303018 66.67%,
+    #4f86b0 66.67%,
+    #4f86b0 83.33%,
+    #bd3333 83.33%,
+    #bd3333 100%
+  );
+  background-size: 160.17px 64.71px;
+  width: 600px;
+  padding: 10px;
+  margin: 10px;
+  height: 300px;
 }
-td{
-    color: aliceblue;font-weight: bold;
+th {
+  background-image: linear-gradient(
+    45deg,
+    #6eba61 16.67%,
+    #f7cfdb 16.67%,
+    #f7cfdb 33.33%,
+    #fff 33.33%,
+    #fff 50%,
+    #6eba61 50%,
+    #6eba61 66.67%,
+    #f7cfdb 66.67%,
+    #f7cfdb 83.33%,
+    #fff 83.33%,
+    #fff 100%
+  );
+  background-size: 84.85px 84.85px;
 }
-.OHANO:hover{
-    text-shadow: 3px 3px #7666c9;
+td {
+  color: aliceblue;
+  font-weight: bold;
 }
-.NIJO:hover{
-  text-shadow: 3px 3px #eb1f41;
+tr:nth-child(even) {
+  background-color: #2cb7b7;
 }
-.ZAMA:hover{
-  text-shadow: 3px 3px #dba12e;
+tr:nth-child(odd) {
+  background-color: #b72c82;
+}
+.OHANO:hover {
+  text-shadow: 3px 3px 3px #7666c9;
+  border: 1%;
+}
+.NIJO:hover {
+  border: 1%;
+  text-shadow: 3px 3px 3px #eb1f41;
+}
+.ZAMA:hover {
+  border: 1%;
+  text-shadow: 3px 3px 3px #dba12e;
 }
 /*ul.navbar-horizontal {
-  /* remove these */
-  /*list-style-type: none;
-  margin: 0;
-  padding: 0;
+/* remove these */
+/*list-style-type: none;
+margin: 0;
+padding: 0;
 
 }
 
 ul.navbar-horizontal li {
-  float:left;/* line up horizontally */
-  /*color:#000;
-  background-color:rgb(43, 198, 226);
+float:left;/* line up horizontally */
+/*color:#000;
+background-color:rgb(43, 198, 226);
 }
 
 ul.navbar-horizontal a {
-  display:block;
-  padding:8px
+display:block;
+padding:8px
 }
 
 /* on hover change the link color*/
 /*ul.navbar-horizontal a:hover {  
-  background-color: #555;
-  color:white;
+background-color: #555;
+color:white;
 }*/
-.iconcclass{
-
-  font-size:20px;color:lightblue;text-shadow:2px 2px 4px #000000;
+.iconcclass {
+  font-size: 20px;
+  color: lightblue;
+  text-shadow: 2px 2px 4px #000000;
 }
-
 
 .charcontainer {
   border: 2px solid #dedede;
@@ -107,17 +161,16 @@ ul.navbar-horizontal a {
 
 .zoom {
   padding: 10px;
-  
-  transition: transform .2s;
-   margin: 0 auto;
+
+  transition: transform 0.2s;
+  margin: 0 auto;
 }
 
 .zoom:hover {
   -ms-transform: scale(1.1); /* IE 9 */
   -webkit-transform: scale(1.1); /* Safari 3-8 */
-  transform: scale(1.1); 
+  transform: scale(1.1);
 }
-
 
 ul {
   list-style-type: none;
@@ -147,11 +200,11 @@ li a:hover:not(.active) {
   background-color: #1717f4;
 }
 
-.linkcls{
+.linkcls {
   padding: 10px;
 }
-.imgcls{
-  padding:10px;
+.imgcls {
+  padding: 10px;
   height: 200px;
   width: 200px;
 }
