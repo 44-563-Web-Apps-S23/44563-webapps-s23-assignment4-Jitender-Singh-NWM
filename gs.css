@@ -5,14 +5,11 @@ body {
 }
 
 .speech {
-  font-size: 10;
-  font-family: "Courier New", Courier, monospace;
-  color: black;
+  font-size: 10;font-family: "Courier New", Courier, monospace;color: black;
 }
 
 .direction {
-  background-color: rgb(232, 232, 100);
-  font-size: 20;
+  background-color: rgb(232, 232, 100);font-size: 20;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .name {
